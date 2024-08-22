@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px
+}
+body{
+    background-color:white;
+    overflow-x: hidden;
+   
+}
+#nav{
+   display: flex;
+   justify-content: end;
+   height: 3vh;
+   width: 100%;
+   /* background-color: green; */
+}
+#nav a{
+    margin-left: 3%;
+    text-decoration: none;
+    color: black;
+    font-size: 2vh;
+}
+#head{
+    margin: 40px 30px;
+    width: 100%;
+    font-size:50px;
+    font-weight: bold;
+    line-height:  1.2;
+}
+#contenet{
+    margin-top: 50px;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+#p1{
+    height: inherit;
+    width: 70%;
+    line-height: 1.3;
+   padding-right: 20px;
+   line-break: normal;
+    align-items: left;
+    font-size: 20px;
+}
+#p2{
+    
+    height: inherit;
+    width: 30%; 
+    margin:20px 0px ;
+}
+#p2 a{
+    margin-left: 2%;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+    margin : 10px 20px;
+    
+}
+.elm{
+    height: 40px;
+    border-top: 1px solid black;
+    margin: 0 20%;
+    text-align: center;
+}
+.elm i{
+    opacity: 0;
+}
+.elm :hover i{
+    opacity: 1;
+}
+#fotter{
+    width: 100%;
+    height: 40vh;
+    background-image: url(/project1/img.jpg);
+    background-size:cover ;
+    background-position: 0 10%;
+   
+   
+}
+
